@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col-sm-4">
+		<label for="name">Name</label>
+	</div>
+	<div class="col-sm-4">
+		<label for="ip">Protocol:Ip/Domain:Port</label>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-4">
+		<input 
+			type="text" 
+			name="name"
+			class="form-control"
+			[(ngModel)]="server.name">
+	</div>
+	<div class="col-sm-4">
+		<input 
+			type="text" 
+			name="ip"
+			class="form-control"
+			[(ngModel)]="server.ip">
+	</div>
+	<div class="col-sm-4">
+		<button class="btn btn-primary" (click)="addServerSettings()">Add</button>
+	</div>
+</div>
