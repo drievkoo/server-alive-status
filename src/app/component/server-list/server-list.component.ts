@@ -20,11 +20,5 @@ export class ServerListComponent implements OnInit {
 
   remove(server: ServerSettings) {
   	this.serverSettingsService.removeServerSettings(server);
-  	// this.servers.splice(this.servers.indexOf(server), 1);
-  }
-
-  update(index: number) {
-  	// this.servers.splice()
-  	// this.serverSettingsService.updateServerSettings(index, this.servers[index]);
   }
 }
