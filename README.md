@@ -1,4 +1,4 @@
-# ServerKeepAliveStatus
+# ServerAliveStatus
 
 Small utility to help you monitor multiple servers. It basically 'pings' servers in the list and tells you latency. It performs checks from client browser. 
 
